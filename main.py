@@ -129,7 +129,7 @@ def comparar_modelos(x: np.ndarray, y: np.ndarray) -> int:
     x_train, x_test = x[:split], x[split:]
     y_train, y_test = y[:split], y[split:]
 
-    grados = [1, 2, 3, 5, 10]
+    grados = [6, 7, 8, 9, 10]
     resultados: List[Tuple[int, float]] = []
 
     print("\n=== REPORTE METRICULAR DE ESTUDIO COMPARATIVO ===\n")
