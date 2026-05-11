@@ -183,7 +183,7 @@ def animacion_grados(x: np.ndarray, y: np.ndarray) -> None:
     representando el comportamiento gráfico del sesgo o sobreajuste ante aumento progresivo de P-dimensión.
     """
     plt.ion()
-    for grado in range(1, 8):
+    for grado in range(6, 12):
         modelo = RegresionPolinomial(grado)
         modelo.ajustar(x, y)
 
